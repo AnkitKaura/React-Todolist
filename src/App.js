@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+function WelcomeMessage() {
+  return <p>Welcome!</p>
+}
+
 function App() {
   return (
     <div className="App">
@@ -8,7 +12,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          <h1> changes made</h1>
         </p>
+        <WelcomeMessage/>
         <a
           className="App-link"
           href="https://reactjs.org"
